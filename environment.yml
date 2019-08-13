@@ -1,0 +1,10 @@
+name: vizor
+channels:
+  - defaults
+  - rdkit
+dependencies:
+  - python=3.6
+  - bokeh=0.12.7
+  - tornado=<5.0
+  - flask=0.12.2
+  - rdkit=2017.09.3.0

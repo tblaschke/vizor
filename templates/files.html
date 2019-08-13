@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<ul>
+    {% for file,name,description in files_names_description %}
+        <li><a href="/view/{{ file }}">{{ file }} ; {{ name }} ; {{ description }}</a></li>
+    {% endfor %}
+</ul>
+</body>
+</html>

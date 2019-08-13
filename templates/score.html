@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        {% include 'styles.css' %}
+    </style>
+    <meta charset="utf-8">
+    <title>MolExplorer</title>
+</head>
+<body>
+<div>
+    <h1>Vizor</h1>
+    <div class="bk-root">
+        {{ bokeh_div | safe }}
+    </div>
+</div>
+</body>
+</html>
